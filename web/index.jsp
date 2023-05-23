@@ -24,20 +24,6 @@
         <input type="submit" value="登录" />
     </label>
 </form>
-<jsp:useBean id="testlogin" class ="com.ccy.bean.testBean" scope ="request"/>
-<jsp:setProperty property="*" name="testlogin" />
-<%
-    int success = 1;
-    if(success==1){
-        System.out.println("登录成功");
-    }
-    else{
-        System.out.println("登录失败？");
-        System.out.println(success);
-        System.out.println(testlogin.getUsername());
-        System.out.println(testlogin.getPassword());
-    }
-%>
 </body>
 </html>
 

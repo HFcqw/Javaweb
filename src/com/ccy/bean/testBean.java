@@ -14,7 +14,9 @@ public class testBean {
         this.password = password;	}
 
     public int testLogin() {
-        if(this.username.equals("aaa") && this.password.equals("123456")) {
+        setUsername(username);
+        setPassword(password);
+        if(this.username.equals("ccy") && this.password.equals("123456")) {
             return 1;
         } else {
             return 0;
