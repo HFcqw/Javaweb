@@ -8,7 +8,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <meta charset="UTF-8">
+    <title>登录成功</title>
 </head>
 <body>
 <jsp:useBean id="testlogin" class ="com.ccy.bean.testBean" scope ="request"/>
